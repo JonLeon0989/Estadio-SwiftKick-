@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: "Briem Hand", cursive;
+    font-weight: bold;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(247, 247, 247, 0.1);
+  }
+  
+  .inputContainer {
+    margin-bottom: 15px;
+  }
+  
+  .input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .button {
+    width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color:blue;;
+    color: white;
+    font-family: "Briem Hand", cursive;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-family:"Marcador permanente";
+  }
+
+  .inputWithImage {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-left: 10px; /* Espacio entre el campo de entrada y la imagen */
+    transition: transform 0.3s ease; /* Transición suave al cambiar el tamaño */
+  }
+  
+  .image:hover {
+    transform: scale(1.2); /* Ajusta el factor de escala según tu preferencia */
+  }
+  

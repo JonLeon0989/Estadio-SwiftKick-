@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.card {
+    position: relative; /* Añade posición relativa para elementos absolutos */
+    background: rgba(255, 255, 255, 0.8); /* Fondo transparente */
+    border-radius: 12px;
+    font-family:"Marcador permanente";
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(207, 132, 132, 0.1);
+    overflow: hidden; /* Oculta el desbordamiento */
+    transition: transform 0.3s ease; /* Transición para agrandar */
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Agrandar al pasar el cursor */
+  }
+  
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/canchas-pastosintetico-futbol7.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+    opacity: 0.9; /* Ajusta la opacidad según sea necesario */
+  }
+  
+  .cardContent {
+    position: relative; /* Ajusta la posición del contenido */
+  }
+  
+  .description {
+    font-size: 22px; /* Aumentar el tamaño del texto */
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: rgb(19, 4, 71);
+  }
+  
+  .cancelButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-family:"Marcador permanente";
+  }
+  
+  .cancelButton:hover {
+    background-color: darkred;
+  }
+  
+  .activeState {
+    color: green; /* Cambiar color de texto a verde para estado activo */
+  }
+  
+  .cancelledState {
+    color: red; /* Cambiar color de texto a rojo para estado cancelado */
+  }

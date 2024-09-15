@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-family: "Briem Hand", cursive;
+  text-align: center;
+  color: #024b12;
+  font-size: 50px;
+}
+
+/* Estilos para el contenedor de texto e imagen */
+.textContainer {
+  display: flex;
+  align-items: center;
+  border: 3px solid rgb(255, 136, 0)
+}
+
+/* Cambia el color del borde al pasar el ratón sobre el contenedor */
+.textContainer:hover {
+  border-color: #113aaa;
+}
+
+.span {
+  font-family: "Marcador permanente";
+  font-weight: bold;
+  text-align: center;
+  color: #1c024b;
+  font-size: 35px;
+}
+
+.imageContainer {
+  flex: 0 0 auto; /* Evita que el contenedor de la imagen se estire */
+  text-align: center; /* Centra la imagen horizontalmente */
+}
+
+.image {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 200px; /* Ajusta la altura máxima de la imagen según sea necesario */
+}

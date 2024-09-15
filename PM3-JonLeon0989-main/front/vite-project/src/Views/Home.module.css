@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el contenedor de texto e imagen */
+.textContainer {
+  display: flex; /* Para disposición horizontal */
+  align-items: center; /* Para alinear verticalmente */
+  border: 3px solid #1d6b0a;
+  padding: 10px;
+  transition: border-color 0.3s ease;
+}
+
+/* Cambia el color del borde al pasar el ratón sobre el contenedor */
+.textContainer:hover {
+  border-color: #113aaa;
+}
+
+/* Estilos para el texto */
+.text {
+  flex: 1; /* Para que el texto ocupe el espacio restante */
+  font-family:"Marcador permanente";
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Estilos para la imagen */
+.image {
+  flex-shrink: 0; /* Evita que la imagen se reduzca */
+  margin-left: 20px; /* Añade espacio entre el texto y la imagen */
+}
+
+/* Estilos para la imagen */
+.image img {
+  max-width: 500px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto de escala al pasar el ratón sobre la imagen */
+.image:hover img {
+  transform: scale(0.9);
+}
+
+/* Estilos para el título principal */
+.title {
+  font-family: "Briem Hand", cursive;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 55px;
+  color: #02362e;
+}
+
+/* Estilos para el texto de bienvenida */
+.span {
+  font-family: "Marcador permanente";
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Estilos para los contenidos */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Estilos para el texto de las reglas */
+.text {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Estilos para el subtítulo de las reglas */
+.subtitle {
+  font-family: "Briem Hand", cursive;
+  text-align: center;
+  color: #024b41;
+}
+
+/* Estilos para la lista de reglas */
+.ruleList {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Marcador permanente";
+}
+
+/* Estilos para los elementos de la lista de reglas */
+.ruleList li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el texto de los implementos */
+.Subtext {
+  font-family: "Briem Hand", cursive;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #024b41;
+}
+
+/* Estilos para la lista de implementos */
+.List {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Marcador permanente";
+  color: black;
+}
+
+/* Estilos para los elementos de la lista de implementos */
+.List li {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+/* Estilos para la imagen a la derecha */
+.imagedos {
+  flex: 1;
+  text-align: center;
+}
+
+/* Estilos para la imagen a la derecha */
+.imagedos img {
+  max-width: 400px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto de escala al pasar el ratón sobre la imagen */
+.imagedos:hover img {
+  transform: scale(0.9);
+}

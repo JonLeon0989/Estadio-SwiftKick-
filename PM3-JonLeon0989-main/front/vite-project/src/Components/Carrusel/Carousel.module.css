@@ -1,0 +1,31 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 400px; /* Ajusta el tamaño según tus preferencias */
+    height: 300px; /* Ajusta el tamaño según tus preferencias */
+    object-fit: cover;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+  }
+  
+  .arrow:hover {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  

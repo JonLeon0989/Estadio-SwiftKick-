@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://concepto.de/wp-content/uploads/2015/02/futbol-3-e1550784028870.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1; /* Opacidad inicial */
+    transition: opacity 0.5s ease; /* Transición suave de la opacidad */
+}
+
+body:hover {
+    opacity: 0.9; /* Opacidad al pasar el cursor sobre el cuerpo */
+}
+
+/* Establece la opacidad intermedia cuando el cursor no está sobre el cuerpo */
+body:not(:hover) {
+    opacity: 0.9;
+}

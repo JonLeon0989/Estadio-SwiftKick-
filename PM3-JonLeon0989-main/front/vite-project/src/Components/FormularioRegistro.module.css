@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Briem Hand", cursive;
+  }
+  
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 5px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Briem Hand", cursive;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .errorMessage {
+    color: rgb(255, 11, 11);
+    font-family:"Marcador permanente";
+  }
+  
+  .registerButton,
+  .loginButton {
+    width: 20%; /* Ambos botones ocuparán el 100% del ancho del contenedor */
+    padding: 10px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family:"Marcador permanente";
+  }
+  
+  .registerButton {
+    background-color: #007bff;
+  }
+  
+  .loginButton {
+    background-color: #28a745;
+    font-family: "Briem Hand", cursive;
+    color: white;
+    text-decoration: none;
+  }

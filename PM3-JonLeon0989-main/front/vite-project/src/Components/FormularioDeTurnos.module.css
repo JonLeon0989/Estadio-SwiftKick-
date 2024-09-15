@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra verticalmente los elementos */
+    margin-top: 2rem; /* Añade un poco de espacio en la parte superior */
+    font-family: "Briem Hand", cursive;
+    color: white;
+  }
+  
+  /* Estilos para los controles de entrada */
+  .inputContainer {
+    margin-bottom: 1.5rem; /* Incrementa un poco el espacio entre los controles */
+    width: 100%; /* Asegura que los controles ocupen todo el ancho */
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  textarea {
+    width: 100%; /* Asegura que los controles de entrada ocupen todo el ancho */
+    padding: 0.5rem; /* Añade un poco de espacio interno */
+    border-radius: 10px; /* Hace que los bordes sean redondos */
+    border: 1px solid #ccc; /* Agrega un borde gris */
+    box-sizing: border-box; /* Asegura que el tamaño total incluya el relleno y el borde */
+  }
+  
+  /* Estilos para el botón */
+  button[type="submit"] {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho */
+    padding: 0.5rem; /* Añade un poco de espacio interno */
+    border: none; /* Quita el borde del botón */
+    border-radius: 10px; /* Hace que los bordes sean redondos */
+    background-color: blue; /* Establece el color de fondo azul */
+    color: white; /* Establece el color del texto en blanco */
+    font-size: 1rem; /* Establece el tamaño de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-family: "Briem Hand", cursive;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: darkblue; /* Cambia el color de fondo al pasar el cursor */
+  }
+  
+  /* Estilos para los mensajes de error y éxito */
+  .error,
+  .exito {
+    color: green; /* Establece el color de los mensajes de error en rojo */
+    font-size: 0.8rem; /* Establece el tamaño de la fuente */
+    margin-top: 0.2rem; /* Añade un poco de espacio en la parte superior */
+  }
